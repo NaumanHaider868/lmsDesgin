@@ -1,0 +1,130 @@
+.nav-content {
+  nav {
+    margin-bottom: -14px;
+    margin-top: -12px;
+
+    .navbar-collapse {
+      margin-left: 38px;
+      margin-top: -16px;
+
+      .menu-icon {
+        display: inline-block;
+        width: 22px;
+        height: 16px;
+        cursor: pointer;
+        background-image: url('../../img/option.svg');
+        background-size: cover;
+        // margin-top: 9px;
+      }
+    }
+
+    .nav {
+      margin-top: 16px;
+      margin-right: 34px;
+
+
+    }
+
+    .nav-item {
+
+      .bell {
+        background-image: url('../../img/-notifications.svg');
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+        cursor: pointer;
+      }
+
+      .setting {
+        background-image: url('../../img/Icon\ feather-settings.svg');
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        margin-top: 5px;
+      }
+
+      svg {
+        font-size: 22px;
+      }
+    }
+
+    .menu-icon {
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    .input-container {
+      margin-left: 10px;
+      position: relative;
+    }
+
+    .input-icon {
+      position: absolute;
+      top: 43%;
+      left: 100px;
+      transform: translateY(-50%);
+      color: gray;
+      pointer-events: none;
+    }
+
+    .form {
+      margin-left: 18px;
+    }
+
+    .form-control {
+      padding-left: 34px;
+    }
+
+    .admin-profile {
+      display: flex;
+
+      .profile-circle {
+        width: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 30px;
+
+        .profile {
+          display: inline-block;
+          background-repeat: no-repeat;
+          background-size: 28px 18px;
+          width: 22px;
+          margin-top: 4px;
+          height: 22px;
+          background-image: url('../../img/Group\ 4.svg');
+        }
+
+        svg {
+          padding: 3px;
+        }
+      }
+
+      .profile-name {
+        margin-top: -7px;
+        margin-left: 7px;
+
+        span {
+          font-size: 13px;
+        }
+
+        p {
+          font-weight: 500;
+          cursor: pointer;
+
+        }
+      }
+    }
+
+  }
+
+  hr {
+    margin-top: 0;
+    border-top: 1px solid #90959f;
+    border: 1;
+  }
+}

@@ -1,0 +1,90 @@
+.main-content {
+    width: 18.35%;
+    height: 100%;
+    background: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+    .side-page {
+        margin-top: 27px;
+        margin-left: -18px;
+    }
+
+    .logo {
+        // padding-left: 2.5rem;
+        padding-left: 2rem;
+        display: flex;
+
+        .logo-icon {
+            background-image: url('../../img/Group\ 64.svg');
+            width: 30px;
+            height: 30px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            margin-top: 6px;
+        }
+
+        h4 {
+            color: #022352;
+            font-size: 28px;
+        }
+    }
+
+    .content {
+        margin-top: 32px;
+    }
+
+    .li-heading {
+        margin-left: 34px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 8px;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            font-size: 16px;
+            font-weight: 500;
+            // padding: 8px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 14px;
+            // margin: 8px;
+            margin: 8px 24px 8px -5px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+
+            svg {
+                padding-right: 12px;
+                padding-top: 4px;
+            }
+        }
+
+        li:hover {
+            background: #e2e4e7;
+            border-radius: 6px;
+            color: #3E3E3E;
+        }
+
+        .active {
+            background: #e2e4e7;
+            border-radius: 6px;
+            color: #3E3E3E;
+        }
+
+        .side-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('../../img/Path\ 52.svg');
+        }
+    }
+
+}

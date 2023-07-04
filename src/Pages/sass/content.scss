@@ -1,0 +1,369 @@
+.my-content {
+    .col-sm-6 {
+        h4 {
+            font-size: 35px;
+            padding-left: 2.25rem;
+        }
+
+        .breadcrumb {
+            background-color: #fff;
+
+            .courses-btn {
+                margin-top: -9px;
+                margin-left: 7px;
+                background: #EEF2FF;
+                color: #4F46E5;
+                font-size: 16px;
+                box-shadow: none;
+                border-radius: 7px;
+            }
+        }
+    }
+
+    .page-main-content {
+        .row {
+            margin-right: 33px;
+            padding-left: 35px;
+        }
+
+        .course-card {
+            margin-bottom: 20px;
+            margin-right: -4px;
+
+            .card {
+                border-radius: 7px;
+                margin-right: -9px;
+            }
+
+            .card-title {
+                display: flex;
+                justify-content: space-between;
+
+                .icon-title {
+                    color: #d5d5d5;
+                    cursor: pointer;
+                }
+
+                h5 {
+                    font-size: 16px;
+                }
+            }
+
+            .card-text {
+                color: #848a95;
+                font-size: 14px;
+            }
+
+            .mid-card {
+                display: flex;
+                justify-content: space-between;
+
+                // position: relative;
+                svg {
+                    cursor: pointer;
+                }
+
+                .sec-icon {
+                    position: absolute;
+                    // bottom: 68px;
+                    left: 31px;
+                }
+
+                .mid-text {
+                    font-size: 11px;
+                    // text-align: center;
+                    color: #6b7280;
+                    // padding-left: 51.5px;
+                }
+
+                .mid-num {
+                    font-size: 11px;
+                    // text-align: center;
+                    color: #6b7280;
+                    // padding-left: 51.5px;
+                }
+
+            }
+
+            .mid-footer {
+                margin-top: 20px;
+                background: #fff;
+                border: none;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+
+                .mid-time {
+                    font-size: 12px;
+                    padding-left: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .time {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        background-image: url('../../img/Icon\ feather-clock.svg');
+                        background-repeat: no-repeat;
+                        background-size: 13px 14px;
+                        margin-top: 7px;
+                    }
+
+                }
+
+                .mid-date {
+                    font-size: 12px;
+                    padding-left: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .calendar {
+                        background-image: url('../../img/Group\ 66.svg');
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        background-size: 13px 22px;
+                        background-repeat: no-repeat;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Dashboard
+
+.dashboard-content {
+    .heading-dash {
+        width: 178px;
+        height: 41px;
+        padding-left: 2.25rem;
+        font-size: 35px;
+        color: #3E3E3E;
+    }
+
+    .page-dash-content {
+        .row {
+            padding-left: 20px;
+        }
+
+        .dash-card {
+            .card {
+                border: none;
+                box-shadow: 0px 3px 6px #00000029;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 467px;
+                height: 231px;
+            }
+
+            .card .card-title h5 {
+                font-size: 16px;
+                width: 178px;
+                height: 19px;
+                color: #3E3E3E;
+                border-bottom: 1px solid #d5d5d5;
+                padding-bottom: 21px;
+            }
+
+            .card-items {
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+                padding-top: 14px;
+                text-align: center;
+
+                .first-item {
+                    border-right: 1px solid #d5d5d5;
+                    // padding-right: 19px;
+                    height: 48px;
+                    padding-right: 34px;
+                    margin-left: 13px;
+                }
+
+                .sec-item {
+                    border-right: 1px solid #d5d5d5;
+                    // padding-right: 19px;
+                    height: 48px;
+                    padding-right: 34px;
+                    margin-left: 34px;
+                }
+
+                .third-item {
+                    margin-left: 35px;
+                    margin-top: 12px;
+                }
+            }
+
+            .main-item {
+                display: flex;
+                margin-top: 10px;
+                
+
+                .main-icon-div-1,
+                .main-icon-div-2,
+                .main-icon-div-3,
+                .main-icon-div-4 {
+                    width: 57px;
+                    height: 58px;
+                    padding-top: 15px;
+                    padding-left: 15px;
+                    border-radius: 5px;
+                }
+
+                .main-icon-div-1 {
+                    background: #FC544B;
+                }
+
+                .main-icon-div-2 {
+                    background: #FFA426;
+                }
+
+                .main-icon-div-3 {
+                    background: #47C363;
+                }
+
+                .main-icon-div-4 {
+                    background: #6777EF;
+                }
+
+                .main-icon1,
+                .main-icon2,
+                .main-icon3,
+                .main-icon4 {
+                    display: inline-block;
+                    width: 31px;
+                    height: 31px;
+                    background-repeat: no-repeat;
+                    background-size: 30px 30px;
+
+                }
+
+                .main-icon1 {
+                    background-image: url('../../img/feather-shopping-cart.svg');
+                }
+
+                .main-icon2 {
+                    background-image: url('../../img/Union1.svg');
+                }
+
+                .main-icon3 {
+                    background-image: url('../../img/feather-shopping-cart.svg');
+                }
+
+                .main-icon4 {
+                    background-image: url('../../img/Icon-feather-message-circle.svg');
+                }
+
+                .main-text {
+                    margin-left: 15px;
+
+                    span {
+                        color: #6B7280;
+                        font: normal normal normal 16px/19px Public Sans;
+                        font-size: 16px;
+                    }
+
+                    p {
+                        color: #3E3E3E;
+                        padding-top: 4px;
+                        font: normal normal normal 24px/28px Public Sans;
+                    }
+                }
+            }
+
+        }
+
+        .dash-double-card {
+            .card {
+                border: none;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                background: #F4F6F9;
+                width: 469px;
+                height: 502px;
+
+                .card-items {
+                    display: flex;
+                    flex-direction: column;
+
+                    .main-item {
+                        display: flex;
+                        margin-bottom: 10px;
+                        margin-top: 33px;
+                margin-bottom: 33px;
+                margin-left: 33px;
+                padding-bottom: 36px;
+                border-bottom: 1px solid #d5d5d5;
+
+                        .icons {
+                            background: #6777EF;
+                            border-radius: 5px;
+                            // width: 66px;
+                            // height: 66px;
+                            width: 84px;
+                            height: 84px;
+                            // padding-top: 14px;
+                            // padding-left: 14px;
+                            padding-top: 19px;
+                            padding-left: 16px;
+
+                            .icon1,
+                            .icon2,
+                            .icon3 {
+                                // display: inline-block;
+                                // width: 40px;
+                                // background-size: 37px 37px;
+                                // height: 40px;
+                                // background-repeat: no-repeat;
+
+                                display: inline-block;
+                                width: 45px;
+                                background-size: 44px 44px;
+                                height: 44px;
+                                background-repeat: no-repeat;
+
+                            }
+
+                            .icon1 {
+                                background-image: url('../../img/feather-shopping-cart.svg');
+                            }
+
+                            .icon2 {
+                                background-image: url('../../img/msg100.svg');
+                            }
+
+                            .icon3 {
+                                background-image: url('../../img/Iconawesome-eye.svg');
+                            }
+                        }
+
+                        .first-text,
+                        .sec-text,
+                        .third-text {
+                            padding-left: 16px;
+                            padding-top: 8px;
+
+                            span {
+                                color: #6B7280;
+                                font: normal normal normal 18px/21px Public Sans;
+                            }
+
+                            p {
+                                color: #3E3E3E;
+                                font: normal normal normal 24px/28px Public Sans;
+                                width: 29px;
+                                height: 28px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
