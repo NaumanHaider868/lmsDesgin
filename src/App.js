@@ -1,17 +1,22 @@
-// import Login from './Pages/Login'
+import Login from './Pages/Login'
 import Content from './Pages/Content';
 import DashBoard from './Pages/DashBoard';
 import Navbar from './Pages/Navbar';
 import Sidebar from './Pages/Sidebar'
-
+import { useState } from 'react';
 function App() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const handleIconClick = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
   return (
-    <div>
+    <div className='wrapper'>
       {/* <Login/>  */}
-      <Sidebar />
-      <Navbar />
-       {/*<Content /> */}
-      <DashBoard/>
+      <Sidebar isOpen={isSidebarOpen} />
+      <Navbar handleIconClick={handleIconClick}/>
+       <Content />
+      {/* <DashBoard/> */}
     </div>
   );
 }

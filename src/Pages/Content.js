@@ -21,8 +21,10 @@ function Content() {
                         </div>
                         <div className="col-sm-6">
                             <div className="breadcrumb float-sm-right">
-                                <FontAwesomeIcon icon={faBars} style={{ paddingRight: '25px', color: '#9196a1' }} />
-                                <FontAwesomeIcon icon={faSortAmountDown} style={{ paddingRight: '25px', color: '#9196a1' }} />
+                                <div className='breadcrumb-icons'>
+                                    <FontAwesomeIcon icon={faBars} className='heading-icon1' />
+                                    <FontAwesomeIcon icon={faSortAmountDown} className='heading-icon1' />
+                                </div>
                                 <button className='btn courses-btn'><FontAwesomeIcon icon={faPlusCircle} /> New Courses</button>
                             </div>
                         </div>
@@ -50,8 +52,9 @@ function Content() {
                                     <div className='mid-time'>
                                         {/* <FontAwesomeIcon icon={faClock} /> */}
                                         <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
+                                        <span className='text-time'>12:22 Hours</span>
                                     </div>
+                                    
                                     <div className='mid-date'>
                                         {/* <FontAwesomeIcon icon={faCalendar} /> */}
                                         <i className='calendar'></i>
@@ -81,39 +84,7 @@ function Content() {
                                     <div className='mid-time'>
                                         {/* <FontAwesomeIcon icon={faClock} /> */}
                                         <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
-                                    </div>
-                                    <div className='mid-date'>
-                                        {/* <FontAwesomeIcon icon={faCalendar} /> */}
-                                        <i className='calendar'></i>
-                                        <span className='text-date'>12/12/2012</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 course-card">
-                        <div className="card">
-                            <div className="card-body">
-                                <div className='card-title'>
-                                    <h5>Course Alfa</h5>
-                                    <FontAwesomeIcon icon={faEllipsisH} className='icon-title' />
-                                </div>
-                                <p className="card-text">Most of you are familiar with this Course, in this course...</p>
-                                <div className='mid-card'>
-                                    <FontAwesomeIcon icon={faUserCircle} />
-                                    <FontAwesomeIcon icon={faUserCircle} className='sec-icon' />
-                                    <span className='mid-text'>Enrolled students</span>
-                                    <span className='mid-num'>90%</span>
-                                    {/* <FontAwesomeIcon icon={faUserPlus} className='third-icon' /> */}
-
-
-                                </div>
-                                <div className='card-footer mid-footer'>
-                                    <div className='mid-time'>
-                                        {/* <FontAwesomeIcon icon={faClock} /> */}
-                                        <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
+                                        <span className='text-time'>12:22 Hours</span>
                                     </div>
                                     <div className='mid-date'>
                                         {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -145,7 +116,7 @@ function Content() {
                                     <div className='mid-time'>
                                         {/* <FontAwesomeIcon icon={faClock} /> */}
                                         <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
+                                        <span className='text-time'>12:22 Hours</span>
                                     </div>
                                     <div className='mid-date'>
                                         {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -177,7 +148,7 @@ function Content() {
                                     <div className='mid-time'>
                                         {/* <FontAwesomeIcon icon={faClock} /> */}
                                         <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
+                                        <span className='text-time'>12:22 Hours</span>
                                     </div>
                                     <div className='mid-date'>
                                         {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -209,7 +180,7 @@ function Content() {
                                     <div className='mid-time'>
                                         {/* <FontAwesomeIcon icon={faClock} /> */}
                                         <i className='time'></i>
-                                         <span className='text-time'>12:22 Hours</span>
+                                        <span className='text-time'>12:22 Hours</span>
                                     </div>
                                     <div className='mid-date'>
                                         {/* <FontAwesomeIcon icon={faCalendar} /> */}
@@ -220,7 +191,41 @@ function Content() {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-3 course-card">
+                        <div className="card">
+                            <div className="card-body">
+                                <div className='card-title'>
+                                    <h5>Course Alfa</h5>
+                                    <FontAwesomeIcon icon={faEllipsisH} className='icon-title' />
+                                </div>
+                                <p className="card-text">Most of you are familiar with this Course, in this course...</p>
+                                <div className='mid-card'>
+                                    <FontAwesomeIcon icon={faUserCircle} />
+                                    <FontAwesomeIcon icon={faUserCircle} className='sec-icon' />
+                                    <span className='mid-text'>Enrolled students</span>
+                                    <span className='mid-num'>90%</span>
+                                    {/* <FontAwesomeIcon icon={faUserPlus} className='third-icon' /> */}
+
+
+                                </div>
+                                <div className='card-footer mid-footer'>
+                                    <div className='mid-time'>
+                                        {/* <FontAwesomeIcon icon={faClock} /> */}
+                                        <i className='time'></i>
+                                        <span className='text-time'>12:22 Hours</span>
+                                    </div>
+                                    <div className='mid-date'>
+                                        {/* <FontAwesomeIcon icon={faCalendar} /> */}
+                                        <i className='calendar'></i>
+                                        <span className='text-date'>12/12/2012</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <button className='btn btn-lg btn-block courses-btn2'><FontAwesomeIcon icon={faPlusCircle} /> New Courses</button>
                 </div>
+
             </div>
         </div>
     )

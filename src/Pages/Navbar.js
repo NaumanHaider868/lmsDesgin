@@ -5,19 +5,21 @@ import { faCog } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
-function Navbar() {
+function Navbar({ handleIconClick }) {
 
     return (
         <div className='nav-content'>
             <nav className='navbar navbar-expand-lg navbar-light'>
                 <div className='collapse navbar-collapse' id="navbarSupportedContent">
                     {/* <FontAwesomeIcon icon={faBars} className='menu-bar' /> */}
-                    <i className='menu-icon'></i>
+                    <i className='menu-icon' onClick={handleIconClick}></i>
 
 
                     <form className="form-inline" style={{marginLeft:'15px'}}>
-                        <i className="fas fa-search input-icon"></i>
+                        {/* <i className="fas fa-search input-icon"></i> */}
+                        <i className='search-icon'></i>
                         <input className="form-control" style={{ boxShadow: 'none' }} />
                     </form>
                 </div>
@@ -37,8 +39,8 @@ function Navbar() {
                     <li className="nav-item">
                         <div className="nav-link admin-profile">
                             <div className='profile-circle'>
-                                {/* <FontAwesomeIcon icon={faUserCircle} className='profile' /> */}
-                                <i className='profile'></i>
+                                <FontAwesomeIcon icon={faUserCircle} className='profile' />
+                                {/* <i className='profile'></i> */}
                             </div>
                             <div className='profile-name'>
                                 <span>Admin</span>

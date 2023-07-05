@@ -134,7 +134,7 @@ function DashBoard() {
                                                 <span>60</span>
                                                 <p>Month</p>
                                             </div>
-                                            <div className='third-item'>
+                                            <div className='forth-item'>
                                                 <span>60</span>
                                                 <p>Year</p>
                                             </div>
@@ -176,7 +176,7 @@ function DashBoard() {
                                         </div>
 
                                     </div>
-                                    <div className='main-item'>
+                                    <div className='main-item' style={{ border: 'none' }}>
                                         <div className='icons'>
                                             <i className='icon3'></i>
                                         </div>

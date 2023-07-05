@@ -1,21 +1,28 @@
 .main-content-login {
     background: #fff;
-
+    height: 100vh;
 
 
     .col-md-5 {
         color: #fff;
         // background: #4F46E5;
-        height: 625px;
+        // height: 625px;
+        height: 100%;
 
-        @media(min-height:747px) {
-            height: 747px;
-            // display: none;
-        }
+        // @media(min-height:747px) {
+        //     height: 747px;
+        //     // display: none;
+        // }
 
-        @media(min-height:757px) {
-            height: 757px;
-        }
+        // @media(min-height:757px) {
+        //     height: 757px;
+        // }
+        // @media(min-height:937px) {
+        //     height: 937px;
+        // }
+        // @media(min-height:927px) {
+        //     height: 927px;
+        // }
 
 
 
