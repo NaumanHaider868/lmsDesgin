@@ -12,11 +12,11 @@ function App() {
   };
   return (
     <div className='wrapper'>
-      {/* <Login/>  */}
-      <Sidebar isOpen={isSidebarOpen} />
-      <Navbar handleIconClick={handleIconClick}/>
+      <Login/> 
+      {/* <Sidebar isOpen={isSidebarOpen} />
+      <Navbar handleIconClick={handleIconClick}/> */}
        {/* <Content /> */}
-      <DashBoard/>
+      {/* <DashBoard/> */}
     </div>
   );
 }

@@ -425,11 +425,10 @@
 
 
             }
-
+            
             .main-item {
                 display: flex;
                 margin-top: 10px;
-
 
                 .main-icon-div-1,
                 .main-icon-div-2,
@@ -502,6 +501,18 @@
                     }
                 }
             }
+            @media (max-width:1920px) {
+                .div-4{
+                    margin-top: 11px;
+                }
+            }
+            // .div-4{
+                @media (max-width:1368px) {
+                    .div-4{
+                        margin-top: 26px;
+                    }
+                }
+            // }
 
         }
 

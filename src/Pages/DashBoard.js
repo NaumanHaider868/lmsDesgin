@@ -139,7 +139,7 @@ function DashBoard() {
                                                 <p>Year</p>
                                             </div>
                                         </div>
-                                        <div className='main-item'>
+                                        <div className='main-item div-4'>
                                             <div className='main-icon-div-4'>
                                                 <i className='main-icon4'></i>
                                             </div>

@@ -31,7 +31,7 @@ function Login() {
 
         <div className='col-md-7'>
           <div className='login-content'>
-            <div className='login-heanding'>
+            <div className='login-heading'>
               <h4>Welcome back!</h4>
               <p>Please enter your credential to sign in!</p>
             </div>

@@ -55,6 +55,7 @@
         }
 
         .logo-login h4 {
+            font-family: 'Public Sans', Medium;
             top: 76px;
             left: 158px;
             width: 127px;
@@ -81,10 +82,12 @@
                 left: 158px;
                 width: 273px;
                 height: 66px;
+                font-family: 'Public Sans', Medium;
             }
 
             p {
                 color: #E5E7EB;
+                font-family: 'Public Sans', Regular;
             }
         }
     }
@@ -115,12 +118,27 @@
             // height: 100%;
             .login-heading {
                 margin-bottom: 21px;
+                h4{
+                    font-family: 'Public Sans', Medium;
+                    color: #111827;
+                    font-weight: 500;
+                }
+                p{
+                    font-family: 'Public Sans', Regular;
+                }
             }
 
             form {
                 .form-group {
                     // margin-bottom: 2.25rem;
                     margin-top: 15px;
+                    
+                    label{
+                        font-family: 'Public Sans', Medium;
+                        // font: normal normal medium 18px/21px Public Sans;
+                        color: #6B7280;
+                        font-size: 18px;
+                    }
                 }
 
                 .form-control {
