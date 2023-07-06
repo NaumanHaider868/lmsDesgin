@@ -15,106 +15,49 @@ function Sidebar({ isOpen }) {
                 <div className='content'>
                     <ul>
                         <li className='active'>
-                            <div className='main-icon'>
-                                <div className='icons'><i className="fas fa-tachometer-alt"></i><p>Dashboard</p></div>
-                            </div>
+                            <div className='icons'><i className="fas fa-tachometer-alt"></i><span>Dashboard</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'>
-                                    <i className="fa-solid fa-chart-line"></i><p>Marketing Dashboard</p></div>
-                            </div>
-                        </li>
+                        <li><div className='icons'><i className="fa-solid fa-chart-line"></i><span>Marketing Dashboard</span></div></li>
                     </ul>
                     <span className='li-heading'>EDUCATION</span>
                     <ul>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i className="fa-solid fa-graduation-cap"></i><p>Courses</p> </div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i className="fa-solid fa-graduation-cap"></i><span>Courses</span> </div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i className="fa-solid fa-cubes"></i><p>Courses Bundles</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i className="fa-solid fa-cubes"></i><span>Courses Bundles</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-calendar"></i><p>Upcoming Courses</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-calendar"></i><span>Upcoming Courses</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-file-pen"></i><p>Quizzes</p></div>
-                            </div>
-
+                        <li><div className='icons'><i class="fa-solid fa-file-pen"></i><span>Quizzes</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-sun"></i><p>Certificates</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-sun"></i><span>Certificates</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-pen"></i><p>Assignments</p></div>
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-pen"></i><span>Assignments</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-message"></i><p>Course Forum</p></div>
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-message"></i><span>Course Forum</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-file-excel"></i><p>Courses Notices</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-file-excel"></i><span>Courses Notices</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-user-plus"></i><p>Enrollment</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-user-plus"></i><span>Enrollment</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-credit-card"></i><p>Waitlist</p></div>
-                            </div>
-
+                        <li><div className='icons'><i class="fa-solid fa-credit-card"></i><span>Waitlist</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-star"></i><p>Categories</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-star"></i><span>Categories</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-filter"></i><p>Filters</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-filter"></i><span>Filters</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
                     </ul>
                     <span className='li-heading'>MEETINGS</span>
                     <ul>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-address-card"></i><p>Consultants</p></div>
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-address-card"></i><span>Consultants</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i className="fas fa-tachometer-alt"></i><p>Meetings</p></div>
-                            </div>
+                        <li><div className='icons'><i className="fas fa-tachometer-alt"></i><span>Meetings</span></div>
                         </li>
                     </ul>
                     <span className='li-heading user'>USERS</span>
                     <ul>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-address-card"></i><p>Users</p></div>
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-address-card"></i><span>Users</span></div>
                         </li>
-                        <li>
-                            <div className='main-icon'>
-                                <div className='icons'><i class="fa-solid fa-credit-card"></i><p>Access Management</p></div> <FontAwesomeIcon icon={faAngleDown} />
-                            </div>
+                        <li><div className='icons'><i class="fa-solid fa-credit-card"></i><span>Access Management</span></div> <FontAwesomeIcon icon={faAngleDown} />
                         </li>
                     </ul>
                 </div>

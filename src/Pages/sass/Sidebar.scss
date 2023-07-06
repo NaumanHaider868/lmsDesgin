@@ -1,10 +1,9 @@
-.wrapper {
+.wrapper{
     position: relative;
     min-height: 100%;
 }
-
 .sidebar-open {
-    transition: 0.5s;
+    transition: width 0.5s ease;
     width: 100px;
     height: 100%;
     background: #F3F4F6;
@@ -40,11 +39,9 @@
     .content {
         margin-top: 32px;
     }
-
-    .user {
+    .user{
         padding-left: 15px;
     }
-
     .li-heading {
         margin-left: 8px;
         display: inline-block;
@@ -53,7 +50,7 @@
         font-weight: bolder;
         font-size: 16px;
 
-
+        
     }
 
     ul {
@@ -109,7 +106,7 @@
 }
 
 .main-content {
-    transition: 0.5s;
+    transition: width 0.5s ease;
     width: 18.35%;
     height: 100%;
     background: #F3F4F6;
@@ -123,6 +120,7 @@
     // z-index: 1038;
 
     .side-page {
+        transition: 0.5s;
         margin-top: 27px;
         margin-left: -18px;
     }
@@ -162,26 +160,28 @@
     }
 
     ul {
-        margin-left: 5px;
-
         li {
+            
             // width: 200px;
-            // height: 48px;
             list-style: none;
-            // font-size: 16px;
-            // font-weight: 500;
-            // padding-top: 8px;
-            // padding-bottom: 8px;
-            // padding-left: 14px;
-            // margin: 8px 24px 8px -5px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 14px;
+            margin: 8px 24px 8px -5px;
             cursor: pointer;
             display: flex;
+            align-items: center;
             justify-content: space-between;
-
-            .icons {
+            .icons{
                 display: flex;
-            }
+                align-items: center;
 
+                svg{
+                    padding-top: 5px;
+                }
+            }
             svg {
                 padding-right: 12px;
                 padding-top: 4px;
@@ -200,14 +200,14 @@
             color: #3E3E3E;
         }
 
-        .side-icon {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url('../../img/Path\ 52.svg');
-        }
+        // .side-icon {
+        //     display: inline-block;
+        //     width: 20px;
+        //     height: 20px;
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+        //     background-image: url('../../img/Path\ 52.svg');
+        // }
     }
 
 }

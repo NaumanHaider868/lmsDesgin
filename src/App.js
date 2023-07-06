@@ -15,8 +15,8 @@ function App() {
       {/* <Login/>  */}
       <Sidebar isOpen={isSidebarOpen} />
       <Navbar handleIconClick={handleIconClick}/>
-       <Content />
-      {/* <DashBoard/> */}
+       {/* <Content /> */}
+      <DashBoard/>
     </div>
   );
 }

@@ -115,7 +115,7 @@ function DashBoard() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6 dash-card">
+                            <div className="col-md-6 dash-card card-4">
                                 <div className="card">
                                     <div className="card-body">
                                         <div className='card-title'>
@@ -130,7 +130,7 @@ function DashBoard() {
                                                 <span>20</span>
                                                 <p>Today</p>
                                             </div>
-                                            <div className='third-item'>
+                                            <div className='third-item forth-third'>
                                                 <span>60</span>
                                                 <p>Month</p>
                                             </div>
