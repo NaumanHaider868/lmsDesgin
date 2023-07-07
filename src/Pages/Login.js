@@ -1,6 +1,6 @@
 import React from 'react'
 import './sass/Login.scss'
-
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -50,7 +50,7 @@ function Login() {
                   <label className="form-check-label" for="exampleCheck1">Remember Me</label>
                   <span className='forget-text'>Forget Password?</span>
                 </div>
-                <button type="button" class="btn btn-block btn-sign">Sign In</button>
+                <Link to='/dashboard'><button type="button" class="btn btn-block btn-sign">Sign In</button></Link>
                 <div className='login-bottom'>
                   <p>Don't have an account yet? <span>Sign up</span></p>
                 </div>

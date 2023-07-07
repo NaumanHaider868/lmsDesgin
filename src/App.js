@@ -4,6 +4,7 @@ import DashBoard from './Pages/DashBoard';
 import Navbar from './Pages/Navbar';
 import Sidebar from './Pages/Sidebar'
 import { useState } from 'react';
+import {Route,Routes} from 'react-router-dom'
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -12,7 +13,12 @@ function App() {
   };
   return (
     <div className='wrapper'>
-      <Login/> 
+      <Routes>
+        <Route path='/' element={<Login/>} />
+        <Route path='/dashboard' element={<DashBoard/>} />
+        <Route path='/content' element={<Content/>} />
+      </Routes>
+      {/* <Login/>  */}
       {/* <Sidebar isOpen={isSidebarOpen} />
       <Navbar handleIconClick={handleIconClick}/> */}
        {/* <Content /> */}

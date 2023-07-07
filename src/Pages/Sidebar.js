@@ -2,9 +2,10 @@ import React from 'react'
 import './sass/Sidebar.scss'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 function Sidebar({ isOpen }) {
-    const sidebarClass = isOpen ? 'sidebar-open' : 'main-content';
+    const sidebarClass = isOpen ? 'main-content' : 'sidebar-open';
     return (
         <div className={`container ${sidebarClass}`}>
             <div className='side-page'>
@@ -17,7 +18,7 @@ function Sidebar({ isOpen }) {
                         <li className='active'>
                             <div className='icons'><i className="fas fa-tachometer-alt"></i><span>Dashboard</span></div>
                         </li>
-                        <li><div className='icons'><i className="fa-solid fa-chart-line"></i><span>Marketing Dashboard</span></div></li>
+                        <Link to='/content' style={{color: '#212529'}}><li><div className='icons'><i className="fa-solid fa-chart-line"></i><span>Marketing Dashboard</span></div></li></Link>
                     </ul>
                     <span className='li-heading'>EDUCATION</span>
                     <ul>
