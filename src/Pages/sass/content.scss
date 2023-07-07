@@ -244,191 +244,243 @@
                 padding-bottom: 21px;
             }
 
-            .card-items {
-                display: flex;
-                justify-content: flex-start;
-                // justify-content: space-between;
-                align-items: center;
-                padding-top: 14px;
-                text-align: center;
-                flex-wrap: wrap;
-
-                @media (max-width:1292px) {
-                    justify-content: center;
-                }
-
-                @media (max-width:767px) {
-                    justify-content: flex-start;
-                }
-
-
-                span {
-                    color: #3E3E3E;
-                    font: normal normal normal 24px/28px Public Sans;
-                }
-
-                p {
-                    font: normal normal normal 16px/19px Public Sans;
-                    color: #6B7280;
-                }
-
-                .first-item {
-                    border-right: 1px solid #d5d5d5;
-                    // padding-right: 19px;
-                    height: 48px;
-                    padding-right: 34px;
-                    margin-left: 13px;
-
-                    @media (max-width:1399.98px) {
-                        margin-left: 0;
-                        padding-right: 24px;
-                    }
-
-                    @media (max-width:1098px) {
+            .card-body {
+                .row {
+                    margin-left: -26px;
+                    .first-item{
                         border: none;
+                        text-align: center;
+                        height: 50px;
                     }
-
-                    @media (max-width:958px) {
-                        display: flex;
-                        flex-direction: column;
-                        margin-left: 26px;
-                        align-items: center;
-                        justify-content: center;
-                        margin-bottom: 11px;
-                        border: none;
-                    }
-
-                    @media (max-width:767px) {
-                        // display: flex;
-                        // flex-direction: column;
-                        // border-right: 1px solid #d5d5d5;
-                        // height: 48px;
-                        // padding-right: 34px;
-                        // margin-left: 13px;
-
-                        border-right: 1px solid #d5d5d5;
-                        // padding-right: 19px;
-                        height: 48px;
-                        padding-right: 34px;
-                        margin-left: 13px;
-                        padding-top: 17px;
-                    }
-                }
-
-                .sec-item {
-                    border-right: 1px solid #d5d5d5;
-                    // padding-right: 19px;
-                    height: 48px;
-                    padding-right: 34px;
-                    margin-left: 34px;
-
-                    @media (max-width:1399.98px) {
-                        margin-left: 0;
-                        padding-right: 24px;
-                        padding-left: 24px;
-                    }
-
-                    @media (max-width:1098px) {
-                        border: none;
-                    }
-
-                    @media (max-width:958px) {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        margin-top: 5px;
-                    }
-
-                    @media (max-width:767px) {
-                        border-right: 1px solid #d5d5d5;
-                        // padding-right: 19px;
-                        height: 48px;
-                        padding-right: 34px;
-                        margin-left: 34px;
-                    }
-                }
-
-                .forth-third {
-                    @media (max-width:1520px) {
-                        border-right: 1px solid #d5d5d5;
-                        height: 48px;
-                    }
-
-                    @media (max-width:1098px) {
-                        border: none;
-                    }
-                }
-
-                .third-item {
-                    margin-left: 35px;
-                    margin-top: 12px;
-
-
-                    @media (max-width:1399.98px) {
-                        margin-left: 0;
-                        padding-right: 24px;
-                        padding-left: 24px;
-                    }
-
-                    @media (max-width:1098px) {
-                        border: none;
-                    }
-
-                    // @media (max-width:1292px) {
-
-                    // }
-                    @media (max-width:958px) {
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                    }
-
-                    @media (max-width:767px) {
-                        margin-left: 35px;
-                        margin-top: 11px;
-                    }
-                }
-
-                .forth-item {
-                    height: 48px;
-                    padding-left: 34px;
-                    margin-left: 34px;
-                    border-left: 1px solid #d5d5d5;
-
-                    @media (max-width:1550.99px) {
-                        border-left: none;
-                        padding-left: 24px;
-                        margin-left: 34px;
-                    }
-
-                    @media (max-width:1518px) {
-                        // .card-4{
-                        margin-top: 5px;
-                        padding-left: 0;
-                        margin-left: 24px;
-                        // }
-                    }
-
-                    @media (max-width:1098px) {
-                        border: none;
-                    }
-
-                    @media (max-width:767px) {
-                        height: 48px;
-                        padding-left: 34px;
-                        margin-left: 34px;
+                    .sec-item,
+                    .third-item
+                    {
+                        text-align: center;
+                        height: 50px;
                         border-left: 1px solid #d5d5d5;
                     }
+                    .forth-item{
+                        text-align: center;
+                        height: 50px;
+                        border-left: 1px solid #d5d5d5;
+
+                    }
+                    .first-item span,
+                    .sec-item span,
+                    .third-item span,
+                    .forth-item span {
+                        color: #3E3E3E;
+                        font: normal normal normal 24px/28px Public Sans;
+                    }
+
+                    .first-item p,
+                    .sec-item p,
+                    .third-item p,
+                    .forth-item p {
+                        color: #6B7280;
+                        font: normal normal normal 16px/19px Public Sans;
+                    }
+
+                    // .forth-item {
+                    //     .span {
+                    //         color: #3E3E3E;
+                    //         font: normal normal normal 24px/28px Public Sans;
+                    //     }
+
+                    //     p {
+                    //         color: #6B7280;
+                    //         font: normal normal normal 16px/19px Public Sans;
+                    //     }
+                    // }
+
                 }
-
-
             }
-            
+
+            // .card-items {
+            //     display: flex;
+            //     justify-content: flex-start;
+            //     // justify-content: space-between;
+            //     align-items: center;
+            //     padding-top: 14px;
+            //     text-align: center;
+            //     flex-wrap: wrap;
+
+            //     @media (max-width:1292px) {
+            //         justify-content: center;
+            //     }
+
+            //     @media (max-width:767px) {
+            //         justify-content: flex-start;
+            //     }
+
+
+            //     span {
+            //         color: #3E3E3E;
+            //         font: normal normal normal 24px/28px Public Sans;
+            //     }
+
+            //     p {
+            //         font: normal normal normal 16px/19px Public Sans;
+            //         color: #6B7280;
+            //     }
+
+            //     .first-item {
+            //         border-right: 1px solid #d5d5d5;
+            //         // padding-right: 19px;
+            //         height: 48px;
+            //         padding-right: 34px;
+            //         margin-left: 13px;
+
+            //         @media (max-width:1399.98px) {
+            //             margin-left: 0;
+            //             padding-right: 24px;
+            //         }
+
+            //         @media (max-width:1098px) {
+            //             border: none;
+            //         }
+
+            //         @media (max-width:958px) {
+            //             display: flex;
+            //             flex-direction: column;
+            //             margin-left: 26px;
+            //             align-items: center;
+            //             justify-content: center;
+            //             margin-bottom: 11px;
+            //             border: none;
+            //         }
+
+            //         @media (max-width:767px) {
+            //             // display: flex;
+            //             // flex-direction: column;
+            //             // border-right: 1px solid #d5d5d5;
+            //             // height: 48px;
+            //             // padding-right: 34px;
+            //             // margin-left: 13px;
+
+            //             border-right: 1px solid #d5d5d5;
+            //             // padding-right: 19px;
+            //             height: 48px;
+            //             padding-right: 34px;
+            //             margin-left: 13px;
+            //             padding-top: 17px;
+            //         }
+            //     }
+
+            //     .sec-item {
+            //         border-right: 1px solid #d5d5d5;
+            //         // padding-right: 19px;
+            //         height: 48px;
+            //         padding-right: 34px;
+            //         margin-left: 34px;
+
+            //         @media (max-width:1399.98px) {
+            //             margin-left: 0;
+            //             padding-right: 24px;
+            //             padding-left: 24px;
+            //         }
+
+            //         @media (max-width:1098px) {
+            //             border: none;
+            //         }
+
+            //         @media (max-width:958px) {
+            //             display: flex;
+            //             justify-content: center;
+            //             align-items: center;
+            //             flex-direction: column;
+            //             margin-top: 5px;
+            //         }
+
+            //         @media (max-width:767px) {
+            //             border-right: 1px solid #d5d5d5;
+            //             // padding-right: 19px;
+            //             height: 48px;
+            //             padding-right: 34px;
+            //             margin-left: 34px;
+            //         }
+            //     }
+
+            //     .forth-third {
+            //         @media (max-width:1520px) {
+            //             border-right: 1px solid #d5d5d5;
+            //             height: 48px;
+            //         }
+
+            //         @media (max-width:1098px) {
+            //             border: none;
+            //         }
+            //     }
+
+            //     .third-item {
+            //         margin-left: 35px;
+            //         margin-top: 12px;
+
+
+            //         @media (max-width:1399.98px) {
+            //             margin-left: 0;
+            //             padding-right: 24px;
+            //             padding-left: 24px;
+            //         }
+
+            //         @media (max-width:1098px) {
+            //             border: none;
+            //         }
+
+            //         // @media (max-width:1292px) {
+
+            //         // }
+            //         @media (max-width:958px) {
+            //             display: flex;
+            //             justify-content: center;
+            //             align-items: center;
+            //             flex-direction: column;
+            //         }
+
+            //         @media (max-width:767px) {
+            //             margin-left: 35px;
+            //             margin-top: 11px;
+            //         }
+            //     }
+
+            //     .forth-item {
+            //         height: 48px;
+            //         padding-left: 34px;
+            //         margin-left: 34px;
+            //         border-left: 1px solid #d5d5d5;
+
+            //         @media (max-width:1550.99px) {
+            //             border-left: none;
+            //             padding-left: 24px;
+            //             margin-left: 34px;
+            //         }
+
+            //         @media (max-width:1518px) {
+            //             // .card-4{
+            //             margin-top: 5px;
+            //             padding-left: 0;
+            //             margin-left: 24px;
+            //             // }
+            //         }
+
+            //         @media (max-width:1098px) {
+            //             border: none;
+            //         }
+
+            //         @media (max-width:767px) {
+            //             height: 48px;
+            //             padding-left: 34px;
+            //             margin-left: 34px;
+            //             border-left: 1px solid #d5d5d5;
+            //         }
+            //     }
+
+
+            // }
+
             .main-item {
                 display: flex;
-                margin-top: 10px;
+                margin-top: 32px;
 
                 .main-icon-div-1,
                 .main-icon-div-2,
@@ -501,17 +553,20 @@
                     }
                 }
             }
+
             @media (max-width:1920px) {
-                .div-4{
+                .div-4 {
                     margin-top: 11px;
                 }
             }
+
             // .div-4{
-                @media (max-width:1368px) {
-                    .div-4{
-                        margin-top: 26px;
-                    }
+            @media (max-width:1368px) {
+                .div-4 {
+                    margin-top: 26px;
                 }
+            }
+
             // }
 
         }
@@ -524,7 +579,7 @@
                 // margin-bottom: 20px;
                 background: #F4F6F9;
                 width: 469px;
-                height: 523px;
+                height: 512px;
 
                 @media (max-width:1399.98px) {
                     width: auto;
