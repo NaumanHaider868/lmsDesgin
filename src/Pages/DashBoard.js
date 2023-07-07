@@ -94,8 +94,8 @@ function DashBoard() {
                                         </div>
                                     </div>
                                 </div>
-                                </div>
-                                <div className='row'>
+                            {/* </div> */}
+                            {/* <div className='row'> */}
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
                                         <div className="card-body">

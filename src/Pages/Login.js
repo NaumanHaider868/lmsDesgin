@@ -10,23 +10,23 @@ function Login() {
         <div className='col-md-5 '>
           <div className='bg-login'>
             <div className='content-login'>
-            <div className='logo-login'>
-              {/* <i class="fa fa-star" aria-hidden="true"></i> */}
-              {/* <i class="fa-solid fa-star"></i> */}
-              {/* <FontAwesomeIcon icon="fa-regular fa-star" /> */}
-              {/*<i class="fas fa-star"></i>*/}
-              <h4>Logo Star</h4>
-            </div>
+              <div className='logo-login'>
+                {/* <i class="fa fa-star" aria-hidden="true"></i> */}
+                {/* <i class="fa-solid fa-star"></i> */}
+                {/* <FontAwesomeIcon icon="fa-regular fa-star" /> */}
+                {/*<i class="fas fa-star"></i>*/}
+                <h4>Logo Star</h4>
+              </div>
 
-            <div className='side-content-login'>
-              <h4>LMS Learning Management system</h4>
-              <p>
-                is an online course marketplace with a pile of features that helps you to run your online education business easily. This product helps instructors and students to get in touch together and share knowledge.
-              </p>
+              <div className='side-content-login'>
+                <h4>LMS Learning Management system</h4>
+                <p>
+                  is an online course marketplace with a pile of features that helps you to run your online education business easily. This product helps instructors and students to get in touch together and share knowledge.
+                </p>
+              </div>
             </div>
           </div>
-          </div>
-          
+
         </div>
 
         <div className='col-md-7'>
@@ -46,11 +46,14 @@ function Login() {
                   <input type="password" class="form-control" placeholder="Password" />
                 </div>
                 <div class="form-check">
-                  <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                  <label className="form-check-label" for="exampleCheck1">Remember Me</label>
+                  <div className='my-div'>
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                    <label className="form-check-label" for="exampleCheck1">Remember Me</label>
+                  </div>
                   <span className='forget-text'>Forget Password?</span>
                 </div>
-                <Link to='/dashboard'><button type="button" class="btn btn-block btn-sign">Sign In</button></Link>
+                <Link to='/dashboard' style={{ textDecoration: 'none' }} className="btn btn-block btn-sign">Sign In</Link>
+
                 <div className='login-bottom'>
                   <p>Don't have an account yet? <span>Sign up</span></p>
                 </div>

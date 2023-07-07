@@ -166,34 +166,41 @@
                 .form-check {
                     padding-left: 1.75rem;
                     margin-top: 9px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
                 }
 
                 .forget-text {
                     color: #4F46E5;
-                    padding-left: 8rem;
+                    // padding-left: 8rem;
                     cursor: pointer;
 
-                    @media (max-width: 1600px) {
-                        padding-left: 12rem
-                    }
+                    // @media (max-width:1900px) {
+                    //     padding-left: 18rem;
+                    // }
 
-                    @media (max-width: 1024px) {
-                        padding-left: 2.25rem
-                    }
+                    // @media (max-width: 1600px) {
+                    //     padding-left: 12rem
+                    // }
 
-                    @media (max-width: 766px) {
-                        padding-left: 6.5rem
-                    }
+                    // @media (max-width: 1024px) {
+                    //     padding-left: 2.25rem
+                    // }
 
-                    @media (max-width: 576px) {
-                        // float: left;
-                        // padding-top: 19px;
-                        // padding-left: 0px;
-                        // float: left;
-                        padding-left: 5rem;
-                        // padding-top: 10px;
-                        // padding-right: 20px;
-                    }
+                    // @media (max-width: 766px) {
+                    //     padding-left: 6.5rem
+                    // }
+
+                    // @media (max-width: 576px) {
+                    //     // float: left;
+                    //     // padding-top: 19px;
+                    //     // padding-left: 0px;
+                    //     // float: left;
+                    //     padding-left: 5rem;
+                    //     // padding-top: 10px;
+                    //     // padding-right: 20px;
+                    // }
 
 
 

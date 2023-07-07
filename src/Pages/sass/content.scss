@@ -5,6 +5,8 @@
         h4 {
             font-size: 35px;
             padding-left: 2.25rem;
+            Font: normal normal 600 35px/41px Public Sans;
+            
         }
 
         .breadcrumb {
@@ -78,13 +80,15 @@
                 }
 
                 h5 {
-                    font-size: 16px;
+                    font-size: 20px;
+                    font-family: 'Public Sans', SemiBold;
                 }
             }
 
             .card-text {
                 color: #848a95;
-                font-size: 14px;
+                font-size: 18px;
+                font-family: 'Public Sans', Light;
             }
 
             .mid-card {
@@ -94,18 +98,21 @@
                 // position: relative;
                 svg {
                     cursor: pointer;
+                    font-size: 18px;
                 }
 
                 .sec-icon {
                     position: absolute;
                     // bottom: 68px;
                     left: 31px;
+                    font-size: 18px;
                 }
 
                 .mid-text {
-                    font-size: 11px;
+                    font-size: 16px;
                     // text-align: center;
                     color: #6b7280;
+                    font-family: 'Public Sans', Light;
 
                     // padding-left: 51.5px;
                     @media (max-width:1199.98px) {
@@ -118,9 +125,10 @@
                 }
 
                 .mid-num {
-                    font-size: 11px;
+                    font-size: 16px;
                     // text-align: center;
                     color: #6b7280;
+                    font-family: 'Public Sans', Light;
                     // padding-left: 51.5px;
                 }
 
@@ -143,7 +151,7 @@
                 }
 
                 .mid-time {
-                    font-size: 12px;
+                    font-size: 14px;
                     padding-left: 6px;
                     display: flex;
                     justify-content: center;
@@ -162,7 +170,7 @@
                 }
 
                 .mid-date {
-                    font-size: 12px;
+                    font-size: 14px;
                     padding-left: 6px;
                     display: flex;
                     justify-content: center;

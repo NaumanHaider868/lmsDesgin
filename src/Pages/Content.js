@@ -8,11 +8,22 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { faCalendar } from '@fortawesome/free-solid-svg-icons';
+import Sidebar from './Sidebar';
+import Navbar from './Navbar';
+import { useState } from 'react';
 
 
 function Content() {
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+    const handleIconClick = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
     return (
-        <div className='my-content'>
+        <div>
+            <Sidebar isOpen={isSidebarOpen} />
+            <Navbar handleIconClick={handleIconClick} />
+            <div className='my-content'>
             <section className="content-header">
                 <div className="container-fluid">
                     <div className="row">
@@ -227,6 +238,7 @@ function Content() {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }
