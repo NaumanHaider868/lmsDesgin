@@ -38,16 +38,25 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <span>20</span>
-                                                    <p>Live Class</p>
+                                                    <div className='item-content'>
+                                                        <span>20</span>
+                                                        <p>Live Class</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 sec-item'>
-                                                    <span>30</span>
-                                                    <p>Course</p>
+                                                    <div className='item-content'>
+                                                        <span>30</span>
+                                                        <p>Course</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 third-item'>
-                                                    <span>30</span>
-                                                    <p>Meetings</p>
+                                                    <div className='item-content'>
+                                                        <span>30</span>
+                                                        <p>Meetings</p>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div className='main-item'>
@@ -70,16 +79,25 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <span>20</span>
-                                                    <p>Today</p>
+                                                    <div className='item-content'>
+                                                        <span>20</span>
+                                                        <p>Today</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 sec-item'>
-                                                    <span>20</span>
-                                                    <p>Today</p>
+                                                    <div className='item-content'>
+                                                        <span>20</span>
+                                                        <p>Today</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 third-item'>
-                                                    <span>0</span>
-                                                    <p>Today</p>
+                                                    <div className='item-content'>
+                                                        <span>0</span>
+                                                        <p>Today</p>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div className='main-item'>
@@ -94,8 +112,8 @@ function DashBoard() {
                                         </div>
                                     </div>
                                 </div>
-                            {/* </div> */}
-                            {/* <div className='row'> */}
+                                {/* </div> */}
+                                {/* <div className='row'> */}
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
                                         <div className="card-body">
@@ -104,16 +122,25 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
+                                                    <div className='item-content'>
                                                     <span>20</span>
                                                     <p>Today</p>
+                                                    </div>
+                                                    
                                                 </div>
                                                 <div className='col-md-3 sec-item'>
+                                                    <div className='item-content'>
                                                     <span>30</span>
                                                     <p>Month</p>
+                                                    </div>
+                                                    
                                                 </div>
                                                 <div className='col-md-3 third-item'>
+                                                    <div className='item-content'>
                                                     <span>30</span>
                                                     <p>Year</p>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
                                             <div className='main-item'>
@@ -154,20 +181,32 @@ function DashBoard() {
                                             </div> */}
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <span>20</span>
-                                                    <p>Recent</p>
+                                                    <div className='item-content'>
+                                                        <span>20</span>
+                                                        <p>Recent</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 sec-item'>
-                                                    <span>30</span>
-                                                    <p>Today</p>
+                                                    <div className='item-content'>
+                                                        <span>30</span>
+                                                        <p>Today</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 third-item'>
-                                                    <span>30</span>
-                                                    <p>Month</p>
+                                                    <div className='item-content'>
+                                                        <span>30</span>
+                                                        <p>Month</p>
+                                                    </div>
+
                                                 </div>
                                                 <div className='col-md-3 forth-item'>
-                                                    <span>30</span>
-                                                    <p>Year</p>
+                                                    <div className='item-content'>
+                                                        <span>30</span>
+                                                        <p>Year</p>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div className='main-item'>
