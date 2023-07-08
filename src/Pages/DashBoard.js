@@ -38,7 +38,7 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <div className='item-content'>
+                                                    <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Live Class</p>
                                                     </div>
@@ -79,7 +79,7 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <div className='item-content'>
+                                                    <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Today</p>
                                                     </div>
@@ -122,7 +122,7 @@ function DashBoard() {
                                             </div>
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <div className='item-content'>
+                                                    <div className='item-content' style={{border:'none'}}>
                                                     <span>20</span>
                                                     <p>Today</p>
                                                     </div>
@@ -181,7 +181,7 @@ function DashBoard() {
                                             </div> */}
                                             <div className='row'>
                                                 <div className='col-md-3 first-item'>
-                                                    <div className='item-content'>
+                                                    <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Recent</p>
                                                     </div>

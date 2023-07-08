@@ -269,7 +269,6 @@
                         height: 50px;
                         display: flex;
                         flex-direction: column;
-                        /* justify-content: center; */
                         align-items: center;
                     }
 
@@ -280,7 +279,6 @@
                         border-left: 1px solid #d5d5d5;
                         display: flex;
                         flex-direction: column;
-                        /* justify-content: center; */
                         align-items: center;
                     }
 
@@ -290,7 +288,6 @@
                         border-left: 1px solid #d5d5d5;
                         display: flex;
                         flex-direction: column;
-                        /* justify-content: center; */
                         align-items: center;
 
                     }
@@ -318,6 +315,8 @@
                         .item-content{
                             padding-right: 10px;
                             padding-left: 10px;
+                            border-left: 1px solid #d5d5d5;
+                            height: 50px;
                         }
                     }
                     // .forth-item {

@@ -22,6 +22,9 @@
     .navbar-collapse {
       margin-left: 38px;
       margin-top: -16px;
+      @media (max-width:1130px) {
+        margin-left: 26px;
+      }
 
       .menu-icon {
         display: inline-block;
@@ -31,6 +34,9 @@
         background-image: url('../../img/option.svg');
         background-size: cover;
         // margin-top: 9px;
+        @media (max-width:1130px) {
+          display: none;
+        }
       }
 
     }
@@ -101,6 +107,10 @@
       position: absolute;
       top: 33%;
       left: 100px;
+      
+      @media (max-width:1130px) {
+        left: 55px;
+      }
     }
 
     .form {
