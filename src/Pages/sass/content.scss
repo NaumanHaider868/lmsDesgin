@@ -196,7 +196,6 @@
 
 .dashboard-content {
 
-    // margin-left: 100px;
     .heading-dash {
         width: 178px;
         height: 41px;
@@ -208,10 +207,6 @@
     .page-dash-content {
         .row {
             padding-left: 13px;
-            // padding-right: 36px;
-            // margin-right: 0;
-            // margin-left: 0;
-            // margin-top: 25px;
         }
 
         .col-md-8 .row {
@@ -231,12 +226,9 @@
             .card {
                 border: none;
                 box-shadow: 0px 3px 6px #00000029;
-                // margin-top: 20px;
                 margin-bottom: 28px;
-                // margin-bottom: 20px;
 
-                // width: 467px;
-                // height: 240px;
+
 
                 @media (max-width:1399.98px) {
                     width: auto;
@@ -256,6 +248,7 @@
 
                 .row {
                     margin-left: -26px;
+
                     @media (max-width:767px) {
                         .row {
                             display: flex;
@@ -263,6 +256,7 @@
                             justify-content: space-evenly;
                         }
                     }
+
                     .first-item {
                         border: none;
                         text-align: center;
@@ -312,209 +306,20 @@
                         .col-md-3 {
                             display: contents;
                         }
-                        .item-content{
+
+                        .item-content {
                             padding-right: 10px;
                             padding-left: 10px;
                             border-left: 1px solid #d5d5d5;
                             height: 50px;
                         }
                     }
-                    // .forth-item {
-                    //     .span {
-                    //         color: #3E3E3E;
-                    //         font: normal normal normal 24px/28px Public Sans;
-                    //     }
 
-                    //     p {
-                    //         color: #6B7280;
-                    //         font: normal normal normal 16px/19px Public Sans;
-                    //     }
-                    // }
 
                 }
             }
 
-            // .card-items {
-            //     display: flex;
-            //     justify-content: flex-start;
-            //     // justify-content: space-between;
-            //     align-items: center;
-            //     padding-top: 14px;
-            //     text-align: center;
-            //     flex-wrap: wrap;
 
-            //     @media (max-width:1292px) {
-            //         justify-content: center;
-            //     }
-
-            //     @media (max-width:767px) {
-            //         justify-content: flex-start;
-            //     }
-
-
-            //     span {
-            //         color: #3E3E3E;
-            //         font: normal normal normal 24px/28px Public Sans;
-            //     }
-
-            //     p {
-            //         font: normal normal normal 16px/19px Public Sans;
-            //         color: #6B7280;
-            //     }
-
-            //     .first-item {
-            //         border-right: 1px solid #d5d5d5;
-            //         // padding-right: 19px;
-            //         height: 48px;
-            //         padding-right: 34px;
-            //         margin-left: 13px;
-
-            //         @media (max-width:1399.98px) {
-            //             margin-left: 0;
-            //             padding-right: 24px;
-            //         }
-
-            //         @media (max-width:1098px) {
-            //             border: none;
-            //         }
-
-            //         @media (max-width:958px) {
-            //             display: flex;
-            //             flex-direction: column;
-            //             margin-left: 26px;
-            //             align-items: center;
-            //             justify-content: center;
-            //             margin-bottom: 11px;
-            //             border: none;
-            //         }
-
-            //         @media (max-width:767px) {
-            //             // display: flex;
-            //             // flex-direction: column;
-            //             // border-right: 1px solid #d5d5d5;
-            //             // height: 48px;
-            //             // padding-right: 34px;
-            //             // margin-left: 13px;
-
-            //             border-right: 1px solid #d5d5d5;
-            //             // padding-right: 19px;
-            //             height: 48px;
-            //             padding-right: 34px;
-            //             margin-left: 13px;
-            //             padding-top: 17px;
-            //         }
-            //     }
-
-            //     .sec-item {
-            //         border-right: 1px solid #d5d5d5;
-            //         // padding-right: 19px;
-            //         height: 48px;
-            //         padding-right: 34px;
-            //         margin-left: 34px;
-
-            //         @media (max-width:1399.98px) {
-            //             margin-left: 0;
-            //             padding-right: 24px;
-            //             padding-left: 24px;
-            //         }
-
-            //         @media (max-width:1098px) {
-            //             border: none;
-            //         }
-
-            //         @media (max-width:958px) {
-            //             display: flex;
-            //             justify-content: center;
-            //             align-items: center;
-            //             flex-direction: column;
-            //             margin-top: 5px;
-            //         }
-
-            //         @media (max-width:767px) {
-            //             border-right: 1px solid #d5d5d5;
-            //             // padding-right: 19px;
-            //             height: 48px;
-            //             padding-right: 34px;
-            //             margin-left: 34px;
-            //         }
-            //     }
-
-            //     .forth-third {
-            //         @media (max-width:1520px) {
-            //             border-right: 1px solid #d5d5d5;
-            //             height: 48px;
-            //         }
-
-            //         @media (max-width:1098px) {
-            //             border: none;
-            //         }
-            //     }
-
-            //     .third-item {
-            //         margin-left: 35px;
-            //         margin-top: 12px;
-
-
-            //         @media (max-width:1399.98px) {
-            //             margin-left: 0;
-            //             padding-right: 24px;
-            //             padding-left: 24px;
-            //         }
-
-            //         @media (max-width:1098px) {
-            //             border: none;
-            //         }
-
-            //         // @media (max-width:1292px) {
-
-            //         // }
-            //         @media (max-width:958px) {
-            //             display: flex;
-            //             justify-content: center;
-            //             align-items: center;
-            //             flex-direction: column;
-            //         }
-
-            //         @media (max-width:767px) {
-            //             margin-left: 35px;
-            //             margin-top: 11px;
-            //         }
-            //     }
-
-            //     .forth-item {
-            //         height: 48px;
-            //         padding-left: 34px;
-            //         margin-left: 34px;
-            //         border-left: 1px solid #d5d5d5;
-
-            //         @media (max-width:1550.99px) {
-            //             border-left: none;
-            //             padding-left: 24px;
-            //             margin-left: 34px;
-            //         }
-
-            //         @media (max-width:1518px) {
-            //             // .card-4{
-            //             margin-top: 5px;
-            //             padding-left: 0;
-            //             margin-left: 24px;
-            //             // }
-            //         }
-
-            //         @media (max-width:1098px) {
-            //             border: none;
-            //         }
-
-            //         @media (max-width:767px) {
-            //             height: 48px;
-            //             padding-left: 34px;
-            //             margin-left: 34px;
-            //             border-left: 1px solid #d5d5d5;
-            //         }
-            //     }
-
-
-            // }
 
             .main-item {
                 display: flex;
@@ -598,25 +403,21 @@
                 }
             }
 
-            // .div-4{
             @media (max-width:1368px) {
                 .div-4 {
                     margin-top: 26px;
                 }
             }
 
-            // }
 
         }
 
         .dash-double-card {
             .card {
                 border: none;
-                // margin-top: 20px;
                 margin-top: 25px;
-                // margin-bottom: 20px;
                 background: #F4F6F9;
-                width: 469px;
+                // width: 469px;
                 height: 512px;
 
                 @media (max-width:1399.98px) {
@@ -631,10 +432,7 @@
 
                     .main-item {
                         display: flex;
-                        // margin-bottom: 10px;
-                        // margin-top: 33px;
                         margin-bottom: 33px;
-                        // margin-left: 33px;
                         padding-bottom: 36px;
                         border-bottom: 1px solid #d5d5d5;
 
@@ -649,11 +447,6 @@
                             .icon1,
                             .icon2,
                             .icon3 {
-                                // display: inline-block;
-                                // width: 40px;
-                                // background-size: 37px 37px;
-                                // height: 40px;
-                                // background-repeat: no-repeat;
 
                                 display: inline-block;
                                 width: 45px;
@@ -704,28 +497,92 @@
     }
 }
 
-// .card-items{
+// form
 
-//     justify-content: center;
-//     .first-item{
-//         display: flex;
-//     flex-direction: column;
-//     margin-left: 26px;
-//     align-items: center;
-//     justify-content: center;
-//     margin-bottom: 11px;
-//     border: none;
-//     }
-//     .sec-item{
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//     }
-//     .third-item{
-//         display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     }
-// }
+.my-container {
+    .form-content {
+        .form-row {
+            padding-left: 48px;
+            padding-top: 15px;
+
+            .col-md-8 .heading h4 {
+                // font: normal normal 600 35px/41px Public Sans;
+                font-family: 'Public Sans', SemiBold;
+                color: #3E3E3E;
+                font-size: 35px;
+                font-weight: 600;
+            }
+
+            .col-md-8 .heading p {
+                font-family: 'Inter', Regular;
+                font: normal normal normal 14px/22px Inter;
+                color: #6B7280;
+            }
+
+            .col-md-8 .content {
+                .content-heading {
+                    h4 {
+                        font: normal normal 600 27px/32px Public Sans;
+                        color: #3E3E3E;
+                    }
+
+                    p {
+                        padding-top: 18px;
+                        font: normal normal normal 14px/17px Inter;
+                        color: #6B7280;
+                    }
+                }
+
+                .main-form-content {
+                    border: 1px solid #AFAFAF;
+                    border-radius: 5px;
+
+                    form {
+                        padding: 15px;
+
+                    }
+
+                    form label {
+                        color: #6B7280;
+                        font-size: 14px;
+                        font-family: 'Inter', Semi Bold;
+                    }
+                    form input{
+                        box-shadow: none;
+                    }
+                    
+                    form .check {
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                    }
+
+                    form .btns {
+                        margin-bottom: 15px;
+
+                        .btn-reset {
+                            margin-right: 7px;
+                            border: 1px solid #AFAFAF;
+                            border-radius: 5px;
+                            width: 105px;
+                            height: 45px;
+                            color: #6B7280;
+                            background: #fff;
+                            box-shadow: none;
+                        }
+
+                        .btn-submit {
+                            margin-left: 7px;
+                            background: #4F46E5;
+                            columns: #fff;
+                            border-radius: 5px;
+                            width: 112px;
+                            height: 45px;
+                            font-size: 16px;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

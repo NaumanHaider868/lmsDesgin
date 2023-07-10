@@ -24,10 +24,11 @@ function Navbar({ handleIconClick }) {
                     </form>
                 </div>
                 <ul className="nav justify-content-end">
-                    <li className="nav-item">
+                    <li className="nav-item parent-active">
                         <a className="nav-link">
                         {/* <FontAwesomeIcon icon={faBell} /> */}
                         <i className='bell'></i>
+                        <div className='active-notice'></div>
                         </a>
                     </li>
                     <li className="nav-item">

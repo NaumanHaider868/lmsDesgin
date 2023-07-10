@@ -15,15 +15,19 @@ function Sidebar({ isOpen }) {
                 </div>
                 <div className='content'>
                     <ul>
-                        <li className='active' data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Dashboard' : ""}>
-                            <div className='icons'><i className="fas fa-tachometer-alt"></i><span>Dashboard</span></div>
-                        </li>
+                        <Link to='/dashboard' style={{ color: '#212529', textDecoration: 'none' }}>
+                            <li className='active' data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Dashboard' : ""}>
+                                <div className='icons'><i className="fas fa-tachometer-alt"></i><span>Dashboard</span></div>
+                            </li>
+                        </Link>
                         <Link to='/content' style={{ color: '#212529', textDecoration: 'none' }}><li data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Marketing Dashboard' : ""}><div className='icons'><i className="fa-solid fa-chart-line"></i><span>Marketing Dashboard</span></div></li></Link>
                     </ul>
                     <span className='li-heading'>EDUCATION</span>
                     <ul>
-                        <li data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Courses' : ""}><div className='icons'><i className="fa-solid fa-graduation-cap"></i><span>Courses</span> </div> <FontAwesomeIcon icon={faAngleDown} className='icon-down' />
-                        </li>
+                        <Link to='/form' style={{ color: '#212529', textDecoration: 'none' }}>
+                            <li data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Courses' : ""}><div className='icons'><i className="fa-solid fa-graduation-cap"></i><span>Courses</span> </div> <FontAwesomeIcon icon={faAngleDown} className='icon-down' />
+                            </li>
+                        </Link>
                         <li data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Courses Bundles' : ""}><div className='icons'><i className="fa-solid fa-cubes"></i><span>Courses Bundles</span></div> <FontAwesomeIcon icon={faAngleDown} className='icon-down' />
                         </li>
                         <li data-placement="top" title={sidebarClass === 'sidebar-open' ? 'Upcoming Courses' : ""}><div className='icons'><i class="fa-solid fa-calendar"></i><span>Upcoming Courses</span></div> <FontAwesomeIcon icon={faAngleDown} className='icon-down' />

@@ -22,6 +22,7 @@
     .navbar-collapse {
       margin-left: 38px;
       margin-top: -16px;
+
       @media (max-width:1130px) {
         margin-left: 26px;
       }
@@ -33,10 +34,7 @@
         cursor: pointer;
         background-image: url('../../img/option.svg');
         background-size: cover;
-        // margin-top: 9px;
-        @media (max-width:1130px) {
-          display: none;
-        }
+
       }
 
     }
@@ -48,17 +46,24 @@
       @media (max-width:575.98px) {
 
         .nav-item .bell,
-        .nav-item .setting {
+        .nav-item .setting,
+        .active-notice {
           display: none;
         }
       }
     }
 
+    .parent-active {
+      position: relative;
+      width: 50px;
+    }
+
     .nav-item {
 
       .bell {
+        position: relative;
         background-image: url('../../img/-notifications.svg');
-        width: 20px;
+        width: 25px;
         height: 20px;
         display: inline-block;
         background-repeat: no-repeat;
@@ -66,9 +71,19 @@
         cursor: pointer;
       }
 
+      .active-notice {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #ff0000;
+        top: 11px;
+        left: 28px;
+      }
+
       .setting {
         background-image: url('../../img/Icon\ feather-settings.svg');
-        width: 20px;
+        width: 25px;
         height: 20px;
         display: inline-block;
         background-repeat: no-repeat;
@@ -86,19 +101,6 @@
       font-size: 20px;
     }
 
-    // .input-container {
-    //   margin-left: 10px;
-    //   position: relative;
-    // }
-
-    // .input-icon {
-    //   position: absolute;
-    //   top: 43%;
-    //   left: 100px;
-    //   transform: translateY(-50%);
-    //   color: gray;
-    //   pointer-events: none;
-    // }
     .search-icon {
       display: inline-flex;
       background-image: url('../../img/Icon-ionic-ios-search.svg');
@@ -107,14 +109,18 @@
       position: absolute;
       top: 33%;
       left: 100px;
-      
+
       @media (max-width:1130px) {
-        left: 55px;
+        left: 90px;
       }
     }
 
     .form {
       margin-left: 18px;
+
+      @media (max-width:1130px) {
+        display: none;
+      }
     }
 
     .form-control {
@@ -157,7 +163,7 @@
         p {
           font-weight: 500;
           cursor: pointer;
-
+          line-height: 15px;
         }
       }
     }

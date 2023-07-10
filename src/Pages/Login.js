@@ -7,14 +7,11 @@ function Login() {
     <div className='container-fluid'>
       <div className='row main-content-login'>
 
-        <div className='col-md-5 '>
+        <div className='col-md-5 content-side'>
           <div className='bg-login'>
             <div className='content-login'>
               <div className='logo-login'>
-                {/* <i class="fa fa-star" aria-hidden="true"></i> */}
-                {/* <i class="fa-solid fa-star"></i> */}
-                {/* <FontAwesomeIcon icon="fa-regular fa-star" /> */}
-                {/*<i class="fas fa-star"></i>*/}
+                <div className='icon-div'><i className='logo-icon'></i></div>
                 <h4>Logo Star</h4>
               </div>
 
@@ -29,7 +26,7 @@ function Login() {
 
         </div>
 
-        <div className='col-md-7'>
+        <div className='col-md-7 form-side'>
           <div className='login-content'>
             <div className='login-heading'>
               <h4>Welcome back!</h4>
