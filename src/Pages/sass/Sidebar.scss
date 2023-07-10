@@ -48,7 +48,8 @@
     .user {
         padding-left: 15px;
     }
-    .crm{
+
+    .crm {
         padding-left: 20px;
     }
 
@@ -59,8 +60,6 @@
         margin-bottom: 8px;
         font-weight: bolder;
         font-size: 16px;
-
-
     }
 
     ul {
@@ -127,9 +126,9 @@
     display: flex;
     flex-direction: column;
     float: left;
-    
+
     @media (max-width:1199px) {
-        display: block;
+        width: 100px;
     }
 
     // min-height: 100vh;
@@ -148,6 +147,7 @@
         padding-left: 2rem;
         display: flex;
 
+
         .logo-icon {
             background-image: url('../../img/Group\ 64.svg');
             width: 35px;
@@ -161,6 +161,10 @@
         h4 {
             color: #022352;
             font-size: 28px;
+
+            @media (max-width:1199px) {
+                display: none;
+            }
         }
     }
 
@@ -177,16 +181,85 @@
         margin-bottom: 8px;
         font-weight: bolder;
         font-size: 16px;
+
+        @media (max-width:1199px) {
+            margin-left: 8px;
+        }
+    }
+
+    @media (max-width:1119px) {
+        .user {
+            padding-left: 15px;
+        }
+
+        .crm {
+            padding-left: 20px;
+        }
     }
 
     ul {
         flex-grow: 1;
         overflow-y: auto;
         height: 100%;
-
+        .tooltip {
+            /* Used to position the arrow */
+            position: relative;
+        }
+        
+        /* Show the arrow and content and restore pointer events when hovering the trigger element */
+        .tooltip:hover .tooltip__arrow,
+        .tooltip:hover .tooltip__content {
+            opacity: 1;
+            pointer-events: initial;
+        }
+        
+        .tooltip__arrow {
+            /* Invisible by default */
+            opacity: 0;
+        
+            /* To prevent accidental interactions with other elements  */
+            pointer-events: none;
+        
+            /* Border */
+            border: 0.5rem solid transparent;
+            border-top-color: #111827;
+        
+            /* Position */
+            bottom: 100%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, 8px);
+        
+            /* Zero size */
+            height: 0;
+            width: 0;
+        
+            /* Displayed on top of other element */
+            z-index: 10;
+        }
+        
+        .tooltip__content {
+            /* Invisible by default */
+            opacity: 0;
+        
+            /* To prevent accidental interactions with other elements  */
+            pointer-events: none;
+        
+            /* Background color, must be the same as the border color of arrow */
+            background-color: #111827;
+            border-radius: 0.25rem;
+        
+            /* Position */
+            bottom: 100%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -8px);
+        
+            /* Displayed on top of other element */
+            z-index: 10;
+        }
         li {
 
-            // width: 200px;
             list-style: none;
             font-size: 16px;
             font-weight: 500;
@@ -205,12 +278,33 @@
                 }
             }
 
+            @media (max-width:1199px) {
+                padding-top: 3px;
+                height: 44px;
+                width: 44px;
+                padding-bottom: 12px;
+                padding-left: 14px;
+                margin: 8px 19px 8px -15px;
+                
+            }
+
             .icons {
                 display: flex;
                 align-items: center;
 
                 svg {
                     padding-top: 5px;
+
+                    @media (max-width:1190px) {
+                        padding-right: 12px;
+                        padding-top: 4px;
+                    }
+                }
+
+                span {
+                    @media (max-width:1199px) {
+                        display: none;
+                    }
                 }
             }
 
@@ -234,14 +328,6 @@
             color: #3E3E3E;
         }
 
-        // .side-icon {
-        //     display: inline-block;
-        //     width: 20px;
-        //     height: 20px;
-        //     background-repeat: no-repeat;
-        //     background-size: cover;
-        //     background-image: url('../../img/Path\ 52.svg');
-        // }
     }
 
 }

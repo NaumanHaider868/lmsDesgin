@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 function Sidebar({ isOpen }) {
-    const sidebarClass = isOpen ? 'main-content' : 'sidebar-open';
+    const sidebarClass = isOpen ? 'sidebar-open' : 'main-content';
     return (
         <div className={`container ${sidebarClass}`}>
             <div className='side-page'>
