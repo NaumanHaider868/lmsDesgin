@@ -12,7 +12,7 @@ function Navbar({ handleIconClick }) {
     return (
         <div className='nav-content'>
             <nav className='navbar navbar-expand-lg navbar-light'>
-                <div className='collapse navbar-collapse' id="navbarSupportedContent">
+                <div className='collapse navbar-collapse nav-collapse' id="navbarSupportedContent">
                     {/* <FontAwesomeIcon icon={faBars} className='menu-bar' /> */}
                     <i className='menu-icon' onClick={handleIconClick}></i>
 
@@ -20,24 +20,24 @@ function Navbar({ handleIconClick }) {
                     <form className="form-inline" style={{marginLeft:'15px'}}>
                         {/* <i className="fas fa-search input-icon"></i> */}
                         <i className='search-icon'></i>
-                        <input className="form-control" style={{ boxShadow: 'none' }} />
+                        <input className="form-control control-form" style={{ boxShadow: 'none' }} />
                     </form>
                 </div>
-                <ul className="nav justify-content-end">
-                    <li className="nav-item parent-active">
+                <ul className="nav nav-top justify-content-end">
+                    <li className="nav-item navbar-items parent-active">
                         <a className="nav-link">
                         {/* <FontAwesomeIcon icon={faBell} /> */}
                         <i className='bell'></i>
                         <div className='active-notice'></div>
                         </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item navbar-items">
                         <a className="nav-link">
                             {/* <FontAwesomeIcon icon={faCog} /> */}
                             <i className='setting'></i>
                         </a>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item navbar-items">
                         <div className="nav-link admin-profile">
                             <div className='profile-circle'>
                                 <FontAwesomeIcon icon={faUserCircle} className='profile' />

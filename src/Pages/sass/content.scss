@@ -1,7 +1,7 @@
 .my-content {
 
     // margin-left: 100px;
-    .col-sm-6 {
+    .headings-courses {
         h4 {
             font-size: 35px;
             padding-left: 2.25rem;
@@ -9,7 +9,7 @@
 
         }
 
-        .breadcrumb {
+        .side-heading-content {
             background-color: #fff;
 
             .breadcrumb-icons svg {
@@ -38,7 +38,7 @@
     }
 
     .page-main-content {
-        .row {
+        .main-content-row {
             margin-right: 33px;
             padding-left: 35px;
 
@@ -65,12 +65,12 @@
             margin-bottom: 20px;
             margin-right: -4px;
 
-            .card {
+            .course-card-content {
                 border-radius: 7px;
                 margin-right: -9px;
             }
 
-            .card-title {
+            .course-card-title {
                 display: flex;
                 justify-content: space-between;
 
@@ -209,7 +209,7 @@
             padding-left: 13px;
         }
 
-        .col-md-8 .row {
+        .page-dash-content-row .col-md-8 .row {
             margin-top: 25px;
         }
 
@@ -244,7 +244,7 @@
                 padding-bottom: 21px;
             }
 
-            .card-body {
+            .dash-card-body {
 
                 .row {
                     margin-left: -26px;
@@ -413,7 +413,7 @@
         }
 
         .dash-double-card {
-            .card {
+            .double-card {
                 border: none;
                 margin-top: 25px;
                 background: #F4F6F9;

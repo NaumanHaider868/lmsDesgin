@@ -17,7 +17,7 @@ function DashBoard() {
             <div className='dashboard-content'>
                 <section className="content-header">
                     <div className="container-fluid">
-                        <div className="row">
+                        <div className="row dashboard-content-row">
                             <div className="col-sm-6">
                                 <h4 className='pl heading-dash'>Dashboard</h4>
                             </div>
@@ -27,12 +27,12 @@ function DashBoard() {
                 </section>
 
                 <div className='page-dash-content'>
-                    <div className="row">
+                    <div className="row page-dash-content-row">
                         <div className='col-md-8'>
                             <div className='row'>
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
-                                        <div className="card-body">
+                                        <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '172px' }}>Course Type Daily Sales</h5>
                                             </div>
@@ -73,7 +73,7 @@ function DashBoard() {
                                 </div>
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
-                                        <div className="card-body">
+                                        <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '122px' }}>Platform Income</h5>
                                             </div>
@@ -116,7 +116,7 @@ function DashBoard() {
                                 {/* <div className='row'> */}
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
-                                        <div className="card-body">
+                                        <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '87px' }}>Sales Count</h5>
                                             </div>
@@ -157,7 +157,7 @@ function DashBoard() {
                                 </div>
                                 <div className="col-md-6 dash-card card-4">
                                     <div className="card">
-                                        <div className="card-body">
+                                        <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '118px' }}>New Comments</h5>
                                             </div>
@@ -223,9 +223,10 @@ function DashBoard() {
                                 </div>
                             </div>
                         </div>
+
                         <div className='col-md-4 dash-double-card'>
-                            <div className="card">
-                                <div className="card-body">
+                            <div className="card double-card">
+                                <div className="card-body dash-card-body">
                                     <div className='card-items'>
                                         <div className='main-item'>
                                             <div className='icons'>

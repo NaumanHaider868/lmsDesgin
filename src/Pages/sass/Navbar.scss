@@ -19,7 +19,7 @@
       }
     }
 
-    .navbar-collapse {
+    .nav-collapse {
       margin-left: 38px;
       margin-top: -9px;
 
@@ -45,8 +45,8 @@
 
       @media (max-width:575.98px) {
 
-        .nav-item .bell,
-        .nav-item .setting,
+        .navbar-items .bell,
+        .navbar-items .setting,
         .active-notice {
           display: none;
         }
@@ -58,7 +58,7 @@
       width: 50px;
     }
 
-    .nav-item {
+    .navbar-items {
 
       .bell {
         position: relative;
@@ -125,7 +125,7 @@
       }
     }
 
-    .form-control {
+    .control-form {
       padding-left: 34px;
     }
 
