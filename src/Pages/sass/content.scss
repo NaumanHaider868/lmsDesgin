@@ -547,13 +547,30 @@
                         font-size: 14px;
                         font-family: 'Inter', Semi Bold;
                     }
-                    form input{
+
+                    form input {
                         box-shadow: none;
                     }
-                    
+
                     form .check {
                         margin-top: 25px;
                         margin-bottom: 25px;
+                        margin-left: 5px;
+
+                        input {
+                            width: 20px;
+                            height: 20px;
+                            border: 1px solid #D5D5D5;
+                            border-radius: 5px;
+                        }
+
+                        label {
+                            font-size: 14px;
+                            font-family: 'Inter', Regular;
+                            color: #9f9f9f;
+                            padding-left: 10px;
+                            padding-top: 5px;
+                        }
                     }
 
                     form .btns {
