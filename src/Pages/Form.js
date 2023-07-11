@@ -6,10 +6,16 @@ import './sass/content.scss'
 
 function Form() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
+    const [show, setShow] = useState(false)
     const handleIconClick = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
+
+    const handlePasswordType = (e) => {
+        e.preventDefault()
+        setShow(!show)
+        console.log(show);
+    }
     return (
         <Fragment>
             <Sidebar isOpen={isSidebarOpen} />
@@ -32,15 +38,18 @@ function Form() {
                                     <form>
                                         <div className="form-group">
                                             <label>Email</label>
-                                            <input type="email" className="form-control" placeholder="Enter email" />
+                                            <input type="text" className="form-control" placeholder="Enter email" />
                                         </div>
                                         <div className="form-group">
                                             <label>User Name</label>
                                             <input type="text" className="form-control" placeholder="Name" />
                                         </div>
-                                        <div className="form-group">
+                                        <div className="form-group password-field">
                                             <label>Password</label>
-                                            <input type="password" className="form-control" placeholder="Password" />
+                                            <input type={show?'text':'password'} className="form-control" placeholder="Password" />
+                                            <button onClick={handlePasswordType} className='password-icon'>
+                                            <i className="fas fa-eye-slash icon-eye"></i>
+                                            </button>
                                         </div>
                                         <div className="form-check check">
                                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />

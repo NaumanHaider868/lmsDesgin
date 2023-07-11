@@ -115,9 +115,9 @@
                     font-family: 'Public Sans', Light;
 
                     // padding-left: 51.5px;
-                    @media (max-width:1199.98px) {
-                        display: none;
-                    }
+                    // @media (max-width:1199.98px) {
+                    //     display: none;
+                    // }
 
                     @media (max-width:767px) {
                         display: block;
@@ -132,6 +132,13 @@
                     // padding-left: 51.5px;
                 }
 
+                @media (max-width:1300px) {
+                    display: grid;
+                }
+
+                @media (max-width:767px) {
+                    display: flex;
+                }
             }
 
             .mid-footer {
@@ -428,7 +435,8 @@
                     display: flex;
                     flex-direction: column;
                     margin-top: 40px;
-                    margin-left: 33px;
+                    margin-left: 9px;
+                    margin-right: 9px;
 
                     .main-item {
                         display: flex;
@@ -540,6 +548,26 @@
                     form {
                         padding: 15px;
 
+                        .password-field {
+                            position: relative;
+
+                            .password-icon {
+                                border: none;
+                                background: none;
+                                display: contents;
+                            }
+
+                            .password-icon,
+                            .icon-eye {
+                                position: absolute;
+                                top: 42px;
+                                color: #9F9F9F;
+                                right: 15px;
+                                width: 20px;
+                                height: 20px;
+                                cursor: pointer;
+                            }
+                        }
                     }
 
                     form label {
@@ -550,6 +578,12 @@
 
                     form input {
                         box-shadow: none;
+
+                        &::placeholder {
+                            font-family: 'Inter', Regular;
+                            color: #9f9f9f;
+                            font-size: 13px;
+                        }
                     }
 
                     form .check {
