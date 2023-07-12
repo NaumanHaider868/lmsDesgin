@@ -29,29 +29,29 @@ function DashBoard() {
                 <div className='page-dash-content'>
                     <div className="row page-dash-content-row">
                         <div className='col-md-8'>
-                            <div className='row'>
+                            <div className='row page-dash-col-8-row'>
                                 <div className="col-md-6 dash-card">
                                     <div className="card">
                                         <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '172px' }}>Course Type Daily Sales</h5>
                                             </div>
-                                            <div className='row'>
-                                                <div className='col-md-3 first-item'>
+                                            <div className='row dash-card-body-row'>
+                                                <div className='col-md-3 col-3 first-item'>
                                                     <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Live Class</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 sec-item'>
+                                                <div className='col-md-3 col-3 sec-item'>
                                                     <div className='item-content'>
                                                         <span>30</span>
                                                         <p>Course</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 third-item'>
+                                                <div className='col-md-3 col-3 third-item'>
                                                     <div className='item-content'>
                                                         <span>30</span>
                                                         <p>Meetings</p>
@@ -60,7 +60,7 @@ function DashBoard() {
                                                 </div>
                                             </div>
                                             <div className='main-item'>
-                                                <div className='main-icon-div-1'>
+                                                <div className='dash-icon-div color-pink'>
                                                     <i className='main-icon1'></i>
                                                 </div>
                                                 <div className='main-text'>
@@ -77,22 +77,22 @@ function DashBoard() {
                                             <div className='card-title'>
                                                 <h5 style={{ width: '122px' }}>Platform Income</h5>
                                             </div>
-                                            <div className='row'>
-                                                <div className='col-md-3 first-item'>
+                                            <div className='row dash-card-body-row'>
+                                                <div className='col-md-3 col-3 first-item'>
                                                     <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Today</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 sec-item'>
+                                                <div className='col-md-3 col-3 sec-item'>
                                                     <div className='item-content'>
                                                         <span>20</span>
                                                         <p>Today</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 third-item'>
+                                                <div className='col-md-3 col-3 third-item'>
                                                     <div className='item-content'>
                                                         <span>0</span>
                                                         <p>Today</p>
@@ -101,7 +101,7 @@ function DashBoard() {
                                                 </div>
                                             </div>
                                             <div className='main-item'>
-                                                <div className='main-icon-div-2'>
+                                                <div className='dash-icon-div color-orange'>
                                                     <i className='main-icon2'></i>
                                                 </div>
                                                 <div className='main-text'>
@@ -120,22 +120,22 @@ function DashBoard() {
                                             <div className='card-title'>
                                                 <h5 style={{ width: '87px' }}>Sales Count</h5>
                                             </div>
-                                            <div className='row'>
-                                                <div className='col-md-3 first-item'>
+                                            <div className='row dash-card-body-row'>
+                                                <div className='col-md-3 col-3 first-item'>
                                                     <div className='item-content' style={{border:'none'}}>
                                                     <span>20</span>
                                                     <p>Today</p>
                                                     </div>
                                                     
                                                 </div>
-                                                <div className='col-md-3 sec-item'>
+                                                <div className='col-md-3 col-3 sec-item'>
                                                     <div className='item-content'>
                                                     <span>30</span>
                                                     <p>Month</p>
                                                     </div>
                                                     
                                                 </div>
-                                                <div className='col-md-3 third-item'>
+                                                <div className='col-md-3 col-3 third-item'>
                                                     <div className='item-content'>
                                                     <span>30</span>
                                                     <p>Year</p>
@@ -144,7 +144,7 @@ function DashBoard() {
                                                 </div>
                                             </div>
                                             <div className='main-item'>
-                                                <div className='main-icon-div-3'>
+                                                <div className='dash-icon-div color-green'>
                                                     <i className='main-icon3'></i>
                                                 </div>
                                                 <div className='main-text'>
@@ -155,53 +155,36 @@ function DashBoard() {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="col-md-6 dash-card card-4">
                                     <div className="card">
                                         <div className="card-body dash-card-body">
                                             <div className='card-title'>
                                                 <h5 style={{ width: '118px' }}>New Comments</h5>
                                             </div>
-                                            {/* <div className='card-items'>
-                                                <div className='first-item'>
-                                                    <span>20</span>
-                                                    <p>Recent</p>
-                                                </div>
-                                                <div className='sec-item'>
-                                                    <span>20</span>
-                                                    <p>Today</p>
-                                                </div>
-                                                <div className='third-item forth-third'>
-                                                    <span>60</span>
-                                                    <p>Month</p>
-                                                </div>
-                                                <div className='forth-item'>
-                                                    <span>60</span>
-                                                    <p>Year</p>
-                                                </div>
-                                            </div> */}
-                                            <div className='row'>
-                                                <div className='col-md-3 first-item'>
+                                            <div className='row dash-card-body-row'>
+                                                <div className='col-md-3 col-3 first-item'>
                                                     <div className='item-content' style={{border:'none'}}>
                                                         <span>20</span>
                                                         <p>Recent</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 sec-item'>
+                                                <div className='col-md-3 col-3 sec-item'>
                                                     <div className='item-content'>
                                                         <span>30</span>
                                                         <p>Today</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 third-item'>
+                                                <div className='col-md-3 col-3 third-item'>
                                                     <div className='item-content'>
                                                         <span>30</span>
                                                         <p>Month</p>
                                                     </div>
 
                                                 </div>
-                                                <div className='col-md-3 forth-item'>
+                                                <div className='col-md-3 col-3 forth-item'>
                                                     <div className='item-content'>
                                                         <span>30</span>
                                                         <p>Year</p>
@@ -210,7 +193,7 @@ function DashBoard() {
                                                 </div>
                                             </div>
                                             <div className='main-item'>
-                                                <div className='main-icon-div-4'>
+                                                <div className='dash-icon-div color-light-blue'>
                                                     <i className='main-icon4'></i>
                                                 </div>
                                                 <div className='main-text'>
@@ -229,29 +212,29 @@ function DashBoard() {
                                 <div className="card-body dash-card-body">
                                     <div className='card-items'>
                                         <div className='main-item'>
-                                            <div className='icons'>
+                                            <div className='icons color-light-blue'>
                                                 <i className='icon1'></i>
                                             </div>
-                                            <div className='first-text'>
+                                            <div className='dash-double-text'>
                                                 <span>New Sale</span>
                                                 <p>20</p>
                                             </div>
                                         </div>
                                         <div className='main-item'>
-                                            <div className='icons'>
+                                            <div className='icons color-light-blue'>
                                                 <i className='icon2'></i>
                                             </div>
-                                            <div className='sec-text'>
+                                            <div className='dash-double-text'>
                                                 <span>New Support Ticket</span>
                                                 <p>18</p>
                                             </div>
 
                                         </div>
                                         <div className='main-item' style={{ border: 'none' }}>
-                                            <div className='icons'>
+                                            <div className='icons color-light-blue'>
                                                 <i className='icon3'></i>
                                             </div>
-                                            <div className='third-text'>
+                                            <div className='dash-double-text'>
                                                 <span>Pending Review Courses</span>
                                                 <p>12</p>
                                             </div>

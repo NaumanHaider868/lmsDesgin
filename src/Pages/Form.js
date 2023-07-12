@@ -23,7 +23,7 @@ function Form() {
             <div className='my-container'>
                 <div className='form-content'>
                     <div className='row form-row'>
-                        <div className='col-md-8'>
+                        <div className='col-md-8 form-col-8'>
                             <div className='heading'>
                                 <h4>Form Control</h4>
                                 <p>Form Is Used To Collect & Verify User Input Data. We Use Formik As Our Form Control Library, Most Of Our Form Components Were Compatible With Formik Binding.</p>
@@ -35,7 +35,7 @@ function Form() {
                                     <p>Sample usage of a simple form with validation.</p>
                                 </div>
                                 <div className='main-form-content'>
-                                    <form>
+                                    <form className='form'>
                                         <div className="form-group">
                                             <label>Email</label>
                                             <input type="text" className="form-control" placeholder="Enter email" />
@@ -64,9 +64,8 @@ function Form() {
 
                             </div>
                         </div>
-                        <div className='col-md-4'>
-
-                        </div>
+                        
+                        <div className='col-md-4 form-col-4'></div>
                     </div>
                 </div>
             </div>
