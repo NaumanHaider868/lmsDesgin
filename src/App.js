@@ -2,15 +2,10 @@ import Login from './Pages/Login'
 import Content from './Pages/Content';
 import DashBoard from './Pages/DashBoard';
 import Form from './Pages/Form';
-
-import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom'
+import CoursesList from './Pages/CoursesList';
 function App() {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const handleIconClick = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
   return (
     <div className='wrapper'>
       <Routes>
@@ -18,7 +13,9 @@ function App() {
         <Route path='/dashboard' element={<DashBoard />} />
         <Route path='/content' element={<Content />} />
         <Route path='/form' element={<Form />} />
+        <Route path='/coursesList' element={<CoursesList/>} />
       </Routes>
+
       {/* <Login/>  */}
       {/* <Sidebar isOpen={isSidebarOpen} />
       <Navbar handleIconClick={handleIconClick}/> */}
