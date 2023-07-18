@@ -662,6 +662,85 @@
     margin-right: 0;
     padding: 25px;
 }
-.course-card .course-card-body{
-    
+
+.course-card .course-card-body {
+    .icon-color-bg1 {
+        border: 1px solid #FF8000;
+        border-radius: 5px;
+        width: 58px;
+        height: 58px;
+    }
+
+    .icon-color-bg2 {
+        border: 1px solid #FC544B;
+        border-radius: 5px;
+        width: 58px;
+        height: 58px;
+    }
+
+    .icon-color-bg3 {
+        border: 1px solid #4F46E5;
+        border-radius: 5px;
+        width: 58px;
+        height: 58px;
+    }
+
+    .icon-color-bg4 {
+        border: 1px solid #00CC00;
+        border-radius: 5px;
+        width: 58px;
+        height: 58px;
+    }
+
+    .icon-clock {
+        background-image: url('../../img/Group-80.svg');
+    }
+
+    .icon-video {
+        background-image: url('../../img/Group-79.svg');
+        padding-left: 10px !important;
+    }
+
+    .icon-dollor {
+        background-image: url('../../img/Icon-metro-dollar2.svg');
+    }
+
+    .icon-eye {
+        background-image: url('../../img/Icon-metro-eye.svg');
+    }
+
+    .icon-eye,
+    .icon-video,
+    .icon-clock {
+        width: 42px;
+        height: 54px;
+        display: inline-block;
+        background-size: 33px 58px;
+        // background-size: 60px 35px;
+        background-repeat: no-repeat;
+        margin-left: 12px;
+    }
+
+    .icon-dollor {
+        width: 35px;
+        height: 59px;
+        display: inline-block;
+        margin-top: 9px;
+        background-size: 33px 39px;
+        background-repeat: no-repeat;
+        margin-left: 12px;
+    }
+    .data{
+        line-height: 1.2rem;
+    }
+    p {
+        color: #6B7280;
+        font-family: 'Public Sans', Regular;
+        font-size: 14px;
+    }
+    span{
+        color: #3E3E3E;
+        font-size: 24px;
+        font-family: 'Public Sans', Regular;
+    }
 }

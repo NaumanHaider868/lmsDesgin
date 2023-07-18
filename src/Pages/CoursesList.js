@@ -27,23 +27,20 @@ function CoursesList() {
                     <div className='content-body'>
                         <div className='course-top'>
                             <div className='row course-row'>
-                                <div className='col-md-3'>
+                                <div className='col-md-3 col-sm-12'>
                                     <div className='course-card'>
-                                        {/* <div className='course-card-body'>
-                                            <div className='icon'></div>
-                                            <div className='data'>
-                                                <p>Total Course</p>
-                                                <span>12</span>
-                                            </div>
-                                        </div> */}
-                                        <div className='row'>
-                                            <div className='col-md-4'>
-                                                <div className='icon'></div>
-                                            </div>
-                                            <div className='col-md-8'>
-                                                <div className='data'>
-                                                    <p>Total Course</p>
-                                                    <span>12</span>
+                                        <div className='course-card-body'>
+                                            <div className='row'>
+                                                <div className='col-md-3'>
+                                                    <div className='icon-color-bg1'>
+                                                        <div className='icon-video'></div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-md-9'>
+                                                    <div className='data'>
+                                                        <p>Total Course</p>
+                                                        <span>12</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,10 +49,18 @@ function CoursesList() {
                                 <div className='col-md-3'>
                                     <div className='course-card'>
                                         <div className='course-card-body'>
-                                            <div className='icon'></div>
-                                            <div className='data'>
-                                                <p>Total Course</p>
-                                                <span>12</span>
+                                            <div className='row'>
+                                                <div className='col-md-3'>
+                                                    <div className='icon-color-bg2'>
+                                                        <div className='icon-eye'></div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-md-9'>
+                                                    <div className='data'>
+                                                        <p>Pending Reviews Courses</p>
+                                                        <span>0</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -63,10 +68,18 @@ function CoursesList() {
                                 <div className='col-md-3'>
                                     <div className='course-card'>
                                         <div className='course-card-body'>
-                                            <div className='icon'></div>
-                                            <div className='data'>
-                                                <p>Total Course</p>
-                                                <span>12</span>
+                                            <div className='row'>
+                                                <div className='col-md-3'>
+                                                    <div className='icon-color-bg3'>
+                                                        <div className='icon-clock'></div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-md-9'>
+                                                    <div className='data'>
+                                                        <p>Total Duration</p>
+                                                        <span>10:20 Hours</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -74,10 +87,18 @@ function CoursesList() {
                                 <div className='col-md-3'>
                                     <div className='course-card'>
                                         <div className='course-card-body'>
-                                            <div className='icon'></div>
-                                            <div className='data'>
-                                                <p>Total Course</p>
-                                                <span>12</span>
+                                            <div className='row'>
+                                                <div className='col-md-3'>
+                                                    <div className='icon-color-bg4'>
+                                                        <div className='icon-dollor'></div>
+                                                    </div>
+                                                </div>
+                                                <div className='col-md-9'>
+                                                    <div className='data'>
+                                                        <p>Total Sales</p>
+                                                        <span>1</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
